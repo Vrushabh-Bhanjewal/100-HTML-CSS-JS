@@ -1,0 +1,72 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Video Background</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        }
+        .container{
+            height: 100vh;
+            width: 100%;
+            position: relative;
+            & video{
+                filter: brightness(0.8);
+                width: 100%;
+                height: auto;
+                background-size: cover;
+            }
+            & .content{
+                color: white;
+                text-align: center;
+                z-index: 1;
+                position: absolute;
+                left: 50%;
+                top: 50%;
+                transform: translate(-50%,-50%);
+                & h1{
+                    font-size: 65px;
+                    
+                }
+                & .btn{
+                    background-color: white;
+                    width:fit-content;
+                    padding: 10px 25px;
+                    color: black;
+                    margin: 30px auto 0;
+                }
+            }
+        }
+        @media (width<1025px){
+            .container{
+                height: fit-content;
+                & .content{ 
+                & h1{
+                scale: 0.8;
+                }
+                & .btn{
+                    scale: 0.8;
+                    margin-top: 5px;
+                }
+            }
+            }
+            
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="content">
+            <h1>Go On<br>Journey</h1>
+            <div class="btn">Explore</div>
+        </div>
+        <video autoplay muted >
+            <source src="assets/video.mp4" >
+        </video>
+    </div>
+</body>
+</html>

@@ -1,0 +1,26 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 62.5%
+}
+html{
+    scroll-behavior: smooth;
+}
+::-webkit-scrollbar{
+    width: .8rem;
+    background-color: rgb(209, 230, 249);
+}
+::-webkit-scrollbar-thumb{
+    background:linear-gradient(rgb(3, 21, 215),rgb(8, 214, 250));
+    border-radius: 15rem;
+}
+.container{
+    background:repeating-linear-gradient(45deg,rgb(31, 239, 117),rgb(63, 226, 244) 90rem);
+    height: 700vh;
+}
+h1{
+    padding: 5rem;
+    text-align: center;
+    font-size: 5rem;
+}

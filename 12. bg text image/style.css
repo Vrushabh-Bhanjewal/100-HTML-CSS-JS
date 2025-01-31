@@ -1,0 +1,24 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100%;
+}
+.header{
+    font-size: 80px;
+    font-weight: 900;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    /* background: url(https://www.google.com/imgres?q=nature%20images&imgurl=https%3A%2F%2Fimages.squarespace-cdn.com%2Fcontent%2Fv1%2F5d777de8109c315fd22faf3a%2F1693407136044-G90XQURX1GABMYGAS8K1%2Fshutterstock_1288634614.jpg%3Fformat%3D2500w&imgrefurl=https%3A%2F%2Fwww.businessfornature.org%2Fsector-actions&docid=2g-Jeeo4x95_kM&tbnid=D-78Nt9X8I7dAM&vet=12ahUKEwimiu2puJ-LAxVrhq8BHWKtIZAQM3oECDQQAA..i&w=2500&h=1396&hcb=2&ved=2ahUKEwimiu2puJ-LAxVrhq8BHWKtIZAQM3oECDQQAA); */
+    color: transparent;
+    background: url(img1.jpg);
+    background-size: cover;
+    background-position: center;
+    background-clip: text;
+    -webkit-background-clip:text ;
+}

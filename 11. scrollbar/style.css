@@ -1,0 +1,32 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html{
+    font-size: 62.5%;
+}
+body{
+    /* height: 100vh; */
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.5rem;
+}
+.container{
+    background-color: rgb(178, 219, 243);
+    /* color: white; */
+    min-width: 30rem;
+    max-width: 30%;
+    height: 60rem;
+    font-size: 2rem;
+    padding: 5rem 2rem;
+    text-align: justify;
+    overflow: auto;
+    scroll-behavior: smooth;
+    & ::selection{
+        background-color: white;
+        color:black;
+    }
+}
